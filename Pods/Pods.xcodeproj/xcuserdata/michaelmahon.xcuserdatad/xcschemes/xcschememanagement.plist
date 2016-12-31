@@ -7,7 +7,7 @@
 		<key>Alamofire.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Pods-RainyShinyCloudy-RainyShinyCloudyTests.xcscheme</key>
 		<dict>
@@ -22,6 +22,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>11E589BFAD56C971E55C1C7FC7895500</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>227DA3E7A845C5E7A038EBCBEF639F24</key>
 		<dict>
 			<key>primary</key>
