@@ -75,9 +75,11 @@ class CurrentWeather {
                 if let main = dict["main"] as? Dictionary<String, AnyObject> {
                     if let currentTemperature = main["temp"] as? Double {
                         
-                        let kelvinToFarenheit = Double(round(10 * (currentTemperature * (9/5) - 459.67)/10))
+                        //let kelvinToFarenheit = Double(round(10 * (currentTemperature * (9/5) - 459.67)/10))
                         
-                        self._currentTemp = kelvinToFarenheit
+                        let weather = Weather()
+                        
+                        self._currentTemp = weather.convertKelvinToFarenheit(kelvin: currentTemperature)
                         print(self._currentTemp)
                     }
                 }

@@ -17,6 +17,11 @@
 		72519B9D1E1856BD00E6D75E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72519B9C1E1856BD00E6D75E /* Constants.swift */; };
 		72519B9F1E1858B200E6D75E /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72519B9E1E1858B200E6D75E /* CurrentWeather.swift */; };
 		726C71E41E185A7500D57316 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726C71E31E185A7500D57316 /* Alamofire.framework */; };
+		726C71E81E186B2000D57316 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726C71E71E186B2000D57316 /* Forecast.swift */; };
+		726C71EA1E1B48B600D57316 /* MultiDayForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726C71E91E1B48B600D57316 /* MultiDayForecast.swift */; };
+		726C71EC1E1B4D2300D57316 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726C71EB1E1B4D2300D57316 /* Weather.swift */; };
+		726C71EE1E1B57DC00D57316 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726C71ED1E1B57DC00D57316 /* WeatherCell.swift */; };
+		726C71F01E1B6D9400D57316 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726C71EF1E1B6D9400D57316 /* Location.swift */; };
 		8596978166872700DAA0E452 /* Pods_RainyShinyCloudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CB810E37CC4CE801148635 /* Pods_RainyShinyCloudy.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +62,11 @@
 		72519B9C1E1856BD00E6D75E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		72519B9E1E1858B200E6D75E /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		726C71E31E185A7500D57316 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/RainyShinyCloudy-ejyyqlrnnqypjicemrlhnnndbxlb/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		726C71E71E186B2000D57316 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		726C71E91E1B48B600D57316 /* MultiDayForecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiDayForecast.swift; sourceTree = "<group>"; };
+		726C71EB1E1B4D2300D57316 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		726C71ED1E1B57DC00D57316 /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		726C71EF1E1B6D9400D57316 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		969339D08C504492C2589298 /* Pods-RainyShinyCloudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainyShinyCloudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-RainyShinyCloudy/Pods-RainyShinyCloudy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +130,11 @@
 				721816FF1E160E210072F168 /* Info.plist */,
 				72519B9C1E1856BD00E6D75E /* Constants.swift */,
 				72519B9E1E1858B200E6D75E /* CurrentWeather.swift */,
+				726C71E71E186B2000D57316 /* Forecast.swift */,
+				726C71E91E1B48B600D57316 /* MultiDayForecast.swift */,
+				726C71EB1E1B4D2300D57316 /* Weather.swift */,
+				726C71ED1E1B57DC00D57316 /* WeatherCell.swift */,
+				726C71EF1E1B6D9400D57316 /* Location.swift */,
 			);
 			path = RainyShinyCloudy;
 			sourceTree = "<group>";
@@ -353,6 +368,11 @@
 				721816F41E160E210072F168 /* AppDelegate.swift in Sources */,
 				72519B9F1E1858B200E6D75E /* CurrentWeather.swift in Sources */,
 				72519B9D1E1856BD00E6D75E /* Constants.swift in Sources */,
+				726C71F01E1B6D9400D57316 /* Location.swift in Sources */,
+				726C71EE1E1B57DC00D57316 /* WeatherCell.swift in Sources */,
+				726C71E81E186B2000D57316 /* Forecast.swift in Sources */,
+				726C71EA1E1B48B600D57316 /* MultiDayForecast.swift in Sources */,
+				726C71EC1E1B4D2300D57316 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
